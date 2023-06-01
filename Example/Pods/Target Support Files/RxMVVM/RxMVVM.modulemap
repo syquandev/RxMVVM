@@ -1,0 +1,6 @@
+framework module RxMVVM {
+  umbrella header "RxMVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}

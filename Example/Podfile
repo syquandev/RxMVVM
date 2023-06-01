@@ -1,0 +1,33 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'RxMVVM_Example' do
+  pod 'RxMVVM', :path => '../'
+
+  pod 'ESPullToRefresh', '~> 2.9'
+  pod 'Core', git: 'https://github.com/syquandev/Core'
+  pod 'API', git: 'https://github.com/syquandev/API'
+  
+  # Rx
+  pod 'RxViewController'
+  pod 'RxCocoa', '5.1'
+  pod 'NSObject+Rx', '5.0'
+  
+  # Core
+  pod 'Reusable', '~> 4.1'
+  pod 'Then', '~> 2.7'
+  pod 'ValidatedPropertyKit'
+  
+  # Others
+  pod 'MagicalRecord', '2.3.0'
+  pod 'MBProgressHUD', '~> 1.2'
+  pod 'SDWebImage', '~> 5.8.3'
+  
+  target 'RxMVVM_Tests' do
+    inherit! :search_paths
+
+    pod 'RxTest', '~> 5.1'
+    
+  end
+end

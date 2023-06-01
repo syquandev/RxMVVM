@@ -1,0 +1,70 @@
+{
+  "name": "RxMVVM",
+  "version": "0.1.0",
+  "summary": "A short description of RxMVVM.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/syquandev/RxMVVM",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "syquandev": "quanhs@bap.jp"
+  },
+  "source": {
+    "git": "https://github.com/syquandev/RxMVVM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "RxMVVM/Classes/**/*",
+  "resource_bundles": {
+    "Core": [
+      "Core/Assets/Storyboards/**/*.storyboard",
+      "Core/Assets/Xibs/**/*.xib",
+      "Core/Assets/Resources/**/*.xcassets",
+      "Core/Classes/**/*.xib",
+      "Core/Classes/**/*.storyboard"
+    ]
+  },
+  "static_framework": true,
+  "dependencies": {
+    "ESPullToRefresh": [
+      "~> 2.9"
+    ],
+    "Core": [
+
+    ],
+    "API": [
+
+    ],
+    "RxViewController": [
+
+    ],
+    "RxCocoa": [
+      "5.1"
+    ],
+    "NSObject+Rx": [
+      "5.0"
+    ],
+    "Reusable": [
+      "~> 4.1"
+    ],
+    "Then": [
+      "~> 2.7"
+    ],
+    "MagicalRecord": [
+      "2.3.0"
+    ],
+    "MBProgressHUD": [
+      "~> 1.2"
+    ],
+    "SDWebImage": [
+      "~> 5.8.3"
+    ],
+    "ValidatedPropertyKit": [
+
+    ]
+  }
+}
