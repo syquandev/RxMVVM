@@ -236,6 +236,12 @@
 		409873CB2A287A6B004D0926 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409873CA2A287A6B004D0926 /* ErrorTracker.swift */; };
 		409873CD2A287A9A004D0926 /* ObservableType+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409873CC2A287A9A004D0926 /* ObservableType+.swift */; };
 		409873CF2A287ABF004D0926 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409873CE2A287ABF004D0926 /* ActivityIndicator.swift */; };
+		409873D12A297C1E004D0926 /* PagingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409873D02A297C1E004D0926 /* PagingInfo.swift */; };
+		409873D32A297C4D004D0926 /* ViewModel+GetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409873D22A297C4D004D0926 /* ViewModel+GetPage.swift */; };
+		409873D52A297C6B004D0926 /* PageActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409873D42A297C6B004D0926 /* PageActivityIndicator.swift */; };
+		409873D72A297C80004D0926 /* MultiActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409873D62A297C80004D0926 /* MultiActivityIndicator.swift */; };
+		409873D92A297D25004D0926 /* ViewModel+GetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409873D82A297D25004D0926 /* ViewModel+GetList.swift */; };
+		409873DB2A297D55004D0926 /* ScreenLoadingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409873DA2A297D55004D0926 /* ScreenLoadingType.swift */; };
 		40AD893DB57A9885175E1ED46339AFA3 /* NSTextStorage+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AC1CEC6D895A61E4D63643D0455C53 /* NSTextStorage+Rx.swift */; };
 		41016D5BEB3F2BFDED0DCBCAA17C2529 /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47792869C1EE580CC71ADF96685644B /* Skip.swift */; };
 		41787460973286E44680EAC799F0D9FC /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA23C65C476D23BF837D0BDFD09CD24 /* MagicalRecord+ErrorHandling.m */; };
@@ -1582,6 +1588,12 @@
 		409873CA2A287A6B004D0926 /* ErrorTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
 		409873CC2A287A9A004D0926 /* ObservableType+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+.swift"; sourceTree = "<group>"; };
 		409873CE2A287ABF004D0926 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		409873D02A297C1E004D0926 /* PagingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingInfo.swift; sourceTree = "<group>"; };
+		409873D22A297C4D004D0926 /* ViewModel+GetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel+GetPage.swift"; sourceTree = "<group>"; };
+		409873D42A297C6B004D0926 /* PageActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageActivityIndicator.swift; sourceTree = "<group>"; };
+		409873D62A297C80004D0926 /* MultiActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiActivityIndicator.swift; sourceTree = "<group>"; };
+		409873D82A297D25004D0926 /* ViewModel+GetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel+GetList.swift"; sourceTree = "<group>"; };
+		409873DA2A297D55004D0926 /* ScreenLoadingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLoadingType.swift; sourceTree = "<group>"; };
 		40AC7E8BBDF998BEA32563AFD0C1C515 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		40BEA8337D10A4A94505882BEEFFC27C /* UIImage+Metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Metadata.h"; path = "SDWebImage/Core/UIImage+Metadata.h"; sourceTree = "<group>"; };
 		40D3ED46F6EB5D55CA3E3DF57DAD57FC /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/Core/SDImageFrame.h; sourceTree = "<group>"; };
@@ -2906,6 +2918,12 @@
 				409873CA2A287A6B004D0926 /* ErrorTracker.swift */,
 				409873CC2A287A9A004D0926 /* ObservableType+.swift */,
 				409873CE2A287ABF004D0926 /* ActivityIndicator.swift */,
+				409873D02A297C1E004D0926 /* PagingInfo.swift */,
+				409873D22A297C4D004D0926 /* ViewModel+GetPage.swift */,
+				409873D42A297C6B004D0926 /* PageActivityIndicator.swift */,
+				409873D62A297C80004D0926 /* MultiActivityIndicator.swift */,
+				409873D82A297D25004D0926 /* ViewModel+GetList.swift */,
+				409873DA2A297D55004D0926 /* ScreenLoadingType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -5891,13 +5909,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				409873CB2A287A6B004D0926 /* ErrorTracker.swift in Sources */,
+				409873D92A297D25004D0926 /* ViewModel+GetList.swift in Sources */,
 				17DB399356B0FFD5DCA59348214BEB99 /* AppService.swift in Sources */,
 				1709D8A5A23C01087280F4F7E0A1C8A9 /* AppSettings.swift in Sources */,
+				409873D52A297C6B004D0926 /* PageActivityIndicator.swift in Sources */,
 				D8BEFBFE0AFB01A7D1D1EBE0B3976B54 /* CacheStorage.swift in Sources */,
 				F820BB1F8FAAF6F743FC48C59B068D2D /* CoreDataRepository.swift in Sources */,
+				409873D12A297C1E004D0926 /* PagingInfo.swift in Sources */,
 				FD3DF4A8F040A42287B0542CC235BB44 /* Date+.swift in Sources */,
 				7519BBE08F8A4CB50306F49D9114364C /* Double+.swift in Sources */,
 				84D3DBBC3D456D886EBB9B25EC212976 /* Dto.swift in Sources */,
+				409873DB2A297D55004D0926 /* ScreenLoadingType.swift in Sources */,
 				07163BBC1400AF9B5F3D8D4D05FBB81D /* EmptyDataView.swift in Sources */,
 				0874D1F8B8D44FA4E1B2693EDFF51015 /* EmptyDataView.xib in Sources */,
 				F0D00607B313957B28DA37C00B41C863 /* LoginDto.swift in Sources */,
@@ -5910,6 +5932,7 @@
 				409873B42A28787D004D0926 /* ViewModel.swift in Sources */,
 				DFA9A3525EF39B81DDAFE2AA1DCC60E9 /* PagingCollectionView.swift in Sources */,
 				E93058B846D5DE8DF0879632BEBB245F /* PagingTableView.swift in Sources */,
+				409873D32A297C4D004D0926 /* ViewModel+GetPage.swift in Sources */,
 				409873CD2A287A9A004D0926 /* ObservableType+.swift in Sources */,
 				4FF10C2C42839C5065589BC8DDF5313E /* RefreshFooterAnimator.swift in Sources */,
 				409873C92A2879A4004D0926 /* Bindable.swift in Sources */,
@@ -5929,6 +5952,7 @@
 				0DC6745E54E5A4EA476447C21FA14510 /* Validation+Collection.swift in Sources */,
 				CC96C017838062FB27AF4D9755AA6E80 /* Validation+Comparable.swift in Sources */,
 				3F36DAA90339E1625B0959D9B5772611 /* Validation+String.swift in Sources */,
+				409873D72A297C80004D0926 /* MultiActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
